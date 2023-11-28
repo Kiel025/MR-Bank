@@ -15,5 +15,11 @@ public class SaldoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivitySaldoBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
+
+        getSupportActionBar().hide();
+
+        binding.toolbarSaldo.setNavigationOnClickListener(v -> {
+            finish();
+        });
     }
 }
