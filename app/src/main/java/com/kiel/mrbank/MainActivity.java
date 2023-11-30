@@ -20,5 +20,9 @@ public class MainActivity extends AppCompatActivity {
         binding.imgSaldo.setOnClickListener( v -> {
             startActivity(new Intent(this, SaldoActivity.class));
         });
+
+        binding.imgFaturas.setOnClickListener(v -> {
+            startActivity(new Intent(this, FaturasActivity.class));
+        });
     }
 }
