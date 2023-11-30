@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(new Intent(this, FaturasActivity.class));
         });
 
-        binding.imgFaturas.setOnClickListener(v -> {
+        binding.imgTransferencia.setOnClickListener(v -> {
             startActivity(new Intent(this, TransferenciaActivity.class));
         });
 
