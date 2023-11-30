@@ -24,5 +24,13 @@ public class MainActivity extends AppCompatActivity {
         binding.imgFaturas.setOnClickListener(v -> {
             startActivity(new Intent(this, FaturasActivity.class));
         });
+
+        binding.imgFaturas.setOnClickListener(v -> {
+            startActivity(new Intent(this, TransferenciaActivity.class));
+        });
+
+        binding.imgPoupanca.setOnClickListener(v -> {
+            startActivity(new Intent(this, PoupancaActivity.class));
+        });
     }
 }
